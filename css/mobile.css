@@ -1,0 +1,349 @@
+  * {
+    max-width: 640px;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    margin: 0.5px;
+    font-family: "Monotype Corsiva", serif;
+    font-size: 0.7rem;
+    background-color: #999;
+  }
+  .container{
+    width: 640px;
+    margin: auto;
+    /* border: 3px solid rgb(240, 109, 2); */
+  }
+  
+
+  /* стили навигации */
+  .header1{
+		background-image: url(../img/фон-чоппер-мини.png);
+		background-repeat: no-repeat;
+		background-size: 640px;
+    height: 390px;
+    margin-bottom: -250px;
+  }
+  .from{
+    /* border: 3px solid rgb(240, 109, 2); */
+    display: inline-block;
+    width: 35%;
+    text-align: left;
+		margin-top: 40px;
+		margin-left: 5px;
+    font-size: 0.7rem;
+  }
+  .xxx{
+    /* border: 3px solid rgb(58, 145, 0); */
+    display: inline-block;
+    letter-spacing: -0.4px;
+    width: 35%;
+    text-align: right;
+    margin-left: 400px;
+    margin-top: -40px;
+    font-size: 0.7rem;
+  }
+  .pro{
+    width: 100%;
+  }
+  header{
+    display: flex;
+  }
+  .top ol li{
+    display: flex;
+    list-style-type: none;
+    margin: 10%;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 120%;
+    text-decoration: none;
+    position: relative;
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    padding: 5px;
+    text-shadow: 0 0 5px rgb(250, 4, 4);
+  }
+  .top ol li:hover{
+    text-decoration: underline;
+  }
+  .top-2{
+    display: none;
+    position: absolute;
+  }
+  .top a{
+    text-decoration: none;
+  }
+  .top li:hover .top-2{
+    position: absolute;
+    display: block;
+    min-width: 100px;
+    margin: 20px 10px 10px -30px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+    border-radius: 15px;
+  }
+  .top-2 li:hover .top-3 li{
+    /* border: 3px solid rgb(58, 145, 0); */
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 1px;
+    font-size: 0.9rem;
+  }
+  .top-3{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    padding: 5px 20px 5px 20px;
+    /* background-color: rgb(229, 233, 3); */
+    top: -19px;
+    left: 100%;
+  }
+  .top-2 li:hover .top-3{
+    position: absolute;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+  }
+  .top li:hover li{
+    display: block;
+    margin: 15%;
+  }
+  .top ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .col3 .top ol{
+    background: url(../img/live-to-ride-small.jpg);
+    background-size: 100% 100%;
+    opacity: 0.9;
+  }
+  .top ol li a{
+    color: rgb(255, 255, 255);
+  }  
+  /* конец стилей навигации */
+
+
+  *{
+    box-sizing: border-box;
+  }
+  .motors{
+    display: inline-block;
+  }
+  .tr1{
+    /* display: inline-block; */
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .moto{
+    width: 45%;
+    height: 45%;
+    border-radius: 15px;
+    margin-top: 25px;
+  }
+  
+  
+  /* css main page */
+  .main_foto1{
+    width: 80%;
+    margin-left: 60px;
+    border-radius: 15px;
+  }
+  .main_foto2{
+    width: 40%;
+    margin-left: 40px;
+    border-radius: 15px;
+  }
+  .main_foto3{
+    width: 40%;
+    height: 40%;
+    margin-left: 40px;
+    border-radius: 15px;
+  }
+  .main_foto4{
+    width: 40%;
+    height: 40%;
+    margin-left: 40px;
+    border-radius: 15px;
+  }
+  .main_foto5{
+    width: 80%;
+    margin-left: 60px;
+    border-radius: 15px;
+  }
+  
+
+  /* kitchen css ----------------------------- */
+  .National-cuisine{
+    margin: 2%;
+  }
+  .kitchen-name{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .National-cuisine img{
+    border-radius: 15px;
+    margin-left: 10px;
+    width: 250px;
+    height: 350px;
+    float: right;
+  }
+  .kitchen-description{
+    text-align: justify;
+		font-size: 1rem;
+  }
+  
+  
+  /* garage css -------*/
+	.motors{
+		margin: 7px;
+	}
+	.motor p{
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+  .motor span{
+    display: block;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(129, 54, 0);
+    /* border: 3px solid rgb(80, 17, 253); */
+  }
+  .moto{
+		width: 25%;
+    margin-top: -2px;
+    margin-right: 5px;
+		float: left;
+  }
+  
+  
+  /* quotes css */
+  .quotes{
+    margin-left: 55px;
+    background: url(../img/фон-папирус.jpg);
+		background-size: 80% 100%;
+		height: 750px;
+		background-repeat: no-repeat;
+	}
+	.tr5{
+    text-align: center;
+		margin-top: 5px;
+		margin-left: -55px;
+    color: rgb(43, 42, 42);
+    font-size: 2rem;
+    font-family: 'Mistral', sans-serif;
+  }
+  .quote{
+		font-size: 0.7rem;
+		/* position: relative; */
+		width: 70%;
+    margin-top: 1px;
+    margin-left: 35px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
+  
+
+  /* css countri */
+  .countri li{
+    display: inline-block;
+    font-size: 40px;
+		vertical-align: baseline;
+		margin-left: 50px;
+    /* border: 3px solid rgb(80, 17, 253); */
+  }
+  .countri li p{
+    /* border: 3px solid rgb(1, 179, 1); */
+		text-align: center;
+		margin-left: -50px;
+  }
+  .countri li img{
+    width: 45%;
+    height: 20%;
+    border-radius: 15px;
+    vertical-align: middle;
+  }
+  
+  
+  /* css общие для всех стран! */
+  .history{
+    /* border: 3px solid rgb(253, 249, 2); */
+    text-align: justify;
+    font-size: 1rem;
+    margin: 15px 15px;
+  }
+  .countries-foto {
+		float: left;
+		width: 40%;
+    margin: 5px 15px 15px 15px;
+    border-radius: 15px;
+  }
+  
+  
+  /* css plans */
+  .rider{
+		width: 80%;
+		margin-left: 8%;
+		margin-bottom: -70px;
+  }
+  .maps_world{
+		height: 280px;
+    border-radius: 15px;
+		margin: 15px;
+    box-shadow: 0 0 5px 12px rgb(202, 200, 200);
+  }
+  
+  
+  /* css anchor */
+  .anchor{
+    margin: 20px;
+    padding: 20px;
+  }
+  /* css beer Hofbräuhaus */
+.beer{
+  width: 80%;
+  height: 190px;
+  border-style: none;
+  border-radius: 15px;
+}
+
+  
+  /* css footer */
+  footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    padding: 5px;
+    color: rgb(160, 160, 160);
+    font-size: 1rem;
+    text-align: center;
+    background-image: url(../img/подвал_фото_бэк.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+  }
+  .foot{
+    vertical-align: middle;
+  }
+  .foot img{
+    width: 13px;
+    height: 13px;
+    margin-bottom: -3px;
+  }
+  footer div a{
+    color: rgb(160, 160, 160);
+  }
+  footer a:hover{
+    color: rgba(255, 123, 0, 0.89);
+  }
+  .telegram-instagram img{
+    width: 13px;
+    height: 13px;
+    margin-bottom: -2px;
+  }

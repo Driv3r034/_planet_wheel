@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  align-items: center;
+  margin: 0.5px;
+  font-family: "Monotype Corsiva", serif;
+  font-size: 1.1rem;
+  background-color: #999;
+}
+.container{
+  width: 1024px;
+  margin: auto;
+  /* border: 3px solid rgb(240, 109, 2); */
+}
+
+
+/* стили навигации */
+.header1{
+  margin-bottom: -1px;
+  background-image: url(../img/фон-чоппер.png);
+  background-size: cover;
+  height: 450px;
+  margin-bottom: -230px;
+}
+.from{
+  /* border: 3px solid rgb(240, 109, 2); */
+  display: inline-block;
+  width: 35%;
+  text-align: left;
+  margin-top: 50px;
+}
+.xxx{
+  /* border: 3px solid rgb(58, 145, 0); */
+  display: inline-block;
+  letter-spacing: -0.4px;
+  width: 35%;
+  text-align: right;
+  margin-left: 657px;
+  margin-top: -40px;
+}
+.pro{
+  width: 100%;
+}
+header{
+  display: flex;
+}
+.top ol li{
+  display: flex;
+  list-style-type: none;
+  margin: 10%;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 120%;
+  text-decoration: none;
+  position: relative;
+  background-color: rgb(49, 49, 49);
+  border-radius: 5px;
+  padding: 5px;
+  text-shadow: 0 0 5px rgb(250, 115, 4);
+}
+.top ol li:hover{
+  text-decoration: underline;
+}
+.top-2{
+  display: none;
+  position: absolute;
+}
+.top a{
+  text-decoration: none;
+}
+.top li:hover .top-2{
+  position: absolute;
+  display: block;
+  min-width: 150px;
+  margin: 23px 10px 10px -45px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  background-color: rgb(49, 49, 49);
+  border-radius: 15px;
+  /* text-decoration: underline; */
+}
+.top-2 li:hover .top-3 li{
+  /* border: 3px solid rgb(58, 145, 0); */
+  width: 110%;
+}
+.top-3{
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  padding: 5px 20px 5px 20px;
+  /* background-color: rgb(229, 233, 3); */
+  top: -19px;
+  left: 100%;
+}
+.top-2 li:hover .top-3{
+  position: absolute;
+  display: inline-block;
+  padding: 5px 20px 5px 20px;
+}
+.top li:hover li{
+  display: block;
+  margin: 15%;
+}
+.top ol{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.col3 .top{
+  /* background: linear-gradient(147deg, #b4b4b4 0%, #353535 74%); */
+  background: url(../img/live-to-ride-big.jpg);
+  background-size: 100% 100%;
+  opacity: 0.9;
+}
+.top ol li a{
+  color: rgb(255, 255, 255);
+}
+/* конец стилей навигации */
+
+
+*{
+  box-sizing: border-box;
+}
+.motors{
+  display: inline-block;
+}
+.tr1{
+  /* display: inline-block; */
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 34px;
+  font-family: 'Roboto', sans-serif;
+}
+.moto{
+  width: 45%;
+  height: 45%;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+
+/* css main page */
+.main_foto1{
+  width: 100%;
+  border-radius: 15px;
+}
+.main_foto2{
+  width: 50%;
+  border-radius: 15px;
+}
+.main_foto3{
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
+}
+.main_foto4{
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
+}
+.main_foto5{
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+/* kitchen css ----------------------------- */
+.kitchen-name{
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.National-cuisine img{
+  border-radius: 15px;
+  margin-left: 10px;
+  width: 450px;
+  height: 550px;
+  float: right;
+}
+.kitchen-description{
+  text-align: justify;
+  font-size: 1.3rem;
+}
+
+
+/* garage css -------*/
+.motor p{
+  font-size: 1.75rem;
+  text-align: justify;
+}
+.motor span{
+  display: block;
+  margin-top: 25px;
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(129, 54, 0);
+  /* border: 3px solid rgb(80, 17, 253); */
+}
+.moto{
+  margin-top: 1px;
+  margin-right: 5px;
+  float: left;
+}
+
+
+/* quotes css */
+.tr5{
+  text-align: center;
+  margin-top: 5px;
+  color: rgb(43, 42, 42);
+  font-size: 4rem;
+  font-family: 'Mistral', sans-serif;
+}
+.quotes{
+  /* position: absolute; */
+  margin-top: 10px;
+  margin-left: 90px;
+  width: 850px;
+  height: 1940px;
+  background: url(../img/фон-папирус.jpg);
+  background-size: 100% 101%;
+}
+.quote{
+  /* position: relative; */
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+
+/* css countri */
+.countri-global{
+  /* border: 3px solid coral; */
+}
+.countri li{
+  display: inline-block;
+  font-size: 40px;
+  vertical-align: baseline;
+  /* border: 3px solid rgb(80, 17, 253); */
+}
+.countri li p{
+  /* border: 3px solid rgb(1, 179, 1); */
+  text-align: center;
+}
+.countri li img{
+  width: 495px;
+  height: 20%;
+  border-radius: 15px;
+  vertical-align: top;
+}
+
+
+/* css общие для всех стран! */
+.history{
+  /* border: 3px solid rgb(253, 249, 2); */
+  text-align: justify;
+  font-size: 2em;
+  margin: 15px 15px;
+
+}
+.countries-foto {
+  float: left;
+  margin: 5px 15px 15px 15px;
+  border-radius: 15px;
+}
+
+
+/* css plans */
+.rider{
+  width: 100%;
+}
+.maps_world{
+  width: 95%;
+  height: 500px;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow:  0 0 5px 12px rgb(202, 200, 200);
+}
+
+
+/* css anchor */
+.anchor{
+  margin: 20px;
+  padding: 20px;
+}
+/* css beer Hofbräuhaus */
+.beer{
+  width: 50%;
+  height: 250px;
+  border-style: none;
+  border-radius: 15px;
+}
+
+/* css footer */
+footer{
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  padding: 5px;
+  color: rgb(160, 160, 160);
+  font-size: 2rem;
+  text-align: center;
+  background-image: url(../img/подвал_фото_бэк.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+.foot{
+  vertical-align: middle;
+}
+.foot img{
+  width: 25px;
+  height: 25px;
+  margin-bottom: -3px;
+}
+footer div a{
+  color: rgb(160, 160, 160);
+}
+footer a:hover{
+  color: rgba(255, 123, 0, 0.89);
+}
+.telegram-instagram img{
+  width: 25px;
+  height: 25px;
+  margin-bottom: -2px;
+}
