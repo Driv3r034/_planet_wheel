@@ -1,5 +1,5 @@
   * {
-    max-width: 640px;
+    max-width: 400px;
     margin: 0;
     padding: 0;
   }
@@ -8,11 +8,11 @@
     align-items: center;
     margin: 0.5px;
     font-family: "Monotype Corsiva", serif;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     background-color: #999;
   }
   .container{
-    width: 640px;
+    max-width: 400px;
     margin: auto;
     /* border: 3px solid rgb(240, 109, 2); */
   }
@@ -22,28 +22,28 @@
   .header1{
 		background-image: url(../img/фон-чоппер-мини.png);
 		background-repeat: no-repeat;
-		background-size: 640px;
-    height: 390px;
-    margin-bottom: -250px;
+		background-size: 400px;
+    height: 395px;
+    margin-bottom: -310px;
   }
   .from{
     /* border: 3px solid rgb(240, 109, 2); */
     display: inline-block;
-    width: 35%;
+    width: 30%;
     text-align: left;
-		margin-top: 40px;
+		margin-top: 20px;
 		margin-left: 5px;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   .xxx{
     /* border: 3px solid rgb(58, 145, 0); */
     display: inline-block;
-    letter-spacing: -0.4px;
-    width: 35%;
+    letter-spacing: -0.8px;
+    width: 30%;
     text-align: right;
-    margin-left: 400px;
-    margin-top: -40px;
-    font-size: 0.7rem;
+    margin-left: 270px;
+    margin-top: -50px;
+    font-size: 0.6rem;
   }
   .pro{
     width: 100%;
@@ -63,7 +63,7 @@
     background-color: rgb(49, 49, 49);
     border-radius: 5px;
     padding: 5px;
-    text-shadow: 0 0 5px rgb(250, 4, 4);
+    text-shadow: 0 0 10px rgb(250, 4, 4);
   }
   .top ol li:hover{
     text-decoration: underline;
@@ -118,6 +118,7 @@
   .col3 .top ol{
     background: url(../img/live-to-ride-small.jpg);
     background-size: 100% 100%;
+    max-width: 400px;
     opacity: 0.9;
   }
   .top ol li a{
@@ -125,7 +126,7 @@
   }  
   /* конец стилей навигации */
 
-
+  /* css garage --- --- --- */
   *{
     box-sizing: border-box;
   }
@@ -135,9 +136,9 @@
   .tr1{
     /* display: inline-block; */
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
   }
   .moto{
@@ -150,30 +151,35 @@
   
   /* css main page */
   .main_foto1{
-    width: 80%;
-    margin-left: 60px;
-    border-radius: 15px;
+    width: 70%;
+    margin-left: 70px;
+    /* border-radius: 15px; */
   }
-  .main_foto2{
-    width: 40%;
-    margin-left: 40px;
+  /* .main_foto2{
+    width: 30%;
+    margin-left: 62px;
     border-radius: 15px;
+  } */
+  .mainFoto_01{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 17.5%;
   }
-  .main_foto3{
-    width: 40%;
-    height: 40%;
-    margin-left: 40px;
+  /* .main_foto3{
+    width: 30%;
+    margin-left: 62px;
     border-radius: 15px;
-  }
-  .main_foto4{
-    width: 40%;
-    height: 40%;
-    margin-left: 40px;
+  } */
+  /* .main_foto4{
+    width: 30%;
+    margin-left: 62px;
     border-radius: 15px;
-  }
+  } */
   .main_foto5{
-    width: 80%;
-    margin-left: 60px;
+    width: 70%;
+    margin-left: 70px;
     border-radius: 15px;
   }
   
@@ -225,24 +231,23 @@
   
   /* quotes css */
   .quotes{
-    margin-left: 55px;
+    margin-left: 40px;
     background: url(../img/фон-папирус.jpg);
 		background-size: 80% 100%;
-		height: 750px;
+		height: 550px;
 		background-repeat: no-repeat;
 	}
 	.tr5{
-    text-align: center;
 		margin-top: 5px;
-		margin-left: -55px;
+		margin-left: -40px;
     color: rgb(43, 42, 42);
     font-size: 2rem;
     font-family: 'Mistral', sans-serif;
   }
   .quote{
-		font-size: 0.7rem;
+		font-size: 0.5rem;
 		/* position: relative; */
-		width: 70%;
+		width: 68%;
     margin-top: 1px;
     margin-left: 35px;
     margin-right: 50px;
@@ -253,7 +258,7 @@
   /* css countri */
   .countri li{
     display: inline-block;
-    font-size: 40px;
+    font-size: 1.5rem;
 		vertical-align: baseline;
 		margin-left: 50px;
     /* border: 3px solid rgb(80, 17, 253); */
@@ -290,7 +295,7 @@
   .rider{
 		width: 80%;
 		margin-left: 8%;
-		margin-bottom: -70px;
+		margin-bottom: -50px;
   }
   .maps_world{
 		height: 280px;
@@ -306,23 +311,24 @@
     padding: 20px;
   }
   /* css beer Hofbräuhaus */
-.beer{
-  width: 80%;
-  height: 190px;
-  border-style: none;
-  border-radius: 15px;
-}
+  .beer{
+    width: 80%;
+    height: 190px;
+    border-style: none;
+    border-radius: 15px;
+  }
 
   
   /* css footer */
   footer{
     width: 100%;
-    height: 100px;
+    height: 80px;
     margin-top: 10px;
     padding: 5px;
     color: rgb(160, 160, 160);
-    font-size: 1rem;
+    font-size: 0.7rem;
     text-align: center;
+    vertical-align: middle;
     background-image: url(../img/подвал_фото_бэк.jpg);
     background-repeat: no-repeat;
     background-size: cover;
